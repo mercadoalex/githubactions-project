@@ -33,7 +33,7 @@ jobs:
       run: mv build/libs/$(ls build/libs) app.jar
 
     - uses: actions/upload-artifact@master
-        with:
+      with:
           name: jar-file
           path: app.jar
       
